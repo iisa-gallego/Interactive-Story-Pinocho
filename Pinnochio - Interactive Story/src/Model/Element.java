@@ -19,7 +19,8 @@ public abstract class Element {
 		reaction = app.loadImage("contento.png");
 		
 	}
-	public abstract void draw (PApplet app);
+	public abstract void drawElement (PApplet app);
+	
 	public int getPosX() {
 		return posX;
 	}
